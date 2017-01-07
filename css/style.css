@@ -1,0 +1,397 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+/* -------------- Navigation Bar ----------------*/
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav{
+    background: #360836;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0 auto;
+}
+nav ul{
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #BD426F;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    vertical-align: baseline;
+    background: transparent;
+    color: #BD426F;
+    padding: 20px;
+}
+.whitetext {
+    color: white;
+}
+/* -------------- Internal Links ----------------*/
+.InternalLinks {
+    margin-right: 46%;
+    margin-top: 50px;
+}
+.boxes{
+    padding: 0;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.74902);
+    margin: 5px; 
+    cursor: pointer;
+    float: right;
+
+}
+
+/* -------------- Main ----------------*/
+main h1 {
+    padding-top: 200px;
+    margin: 0;
+    font-size:  60px;
+}
+main{
+    background: url("https://static.wixstatic.com/media/1f3c0f_daf6f200321c4154893ffceab6ed9b79.png/v1/fill/w_653,h_272,al_c,q_80,usm_0.66_1.00_0.01/1f3c0f_daf6f200321c4154893ffceab6ed9b79.png") 50% 50% / cover no-repeat;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+main h4 {
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+/* -------------- Button ----------------*/
+
+
+.rresht {
+    width: 360px;
+    height: 50px;
+    text-align: center;
+    background: #FF0048;
+    margin: auto;
+    margin-top: 138px;
+    font-family: sans-serif;
+}
+
+.rresht .work {
+    padding: 18px;
+}
+
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 35px solid #FF0048;
+    margin: 0 auto;
+}
+
+
+/* -------------- Photos ----------------*/
+
+.fotot{
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    margin-left: -40px;
+}
+.fotot ul {
+    float: left;
+    width: 100%;
+}
+.fotot .ul {
+    margin-top: -20px;
+}
+
+.fotot ul li {
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pictures{
+    width: 100%;
+    background-size: cover;
+}
+
+/* -------------- Photos Animation ----------------*/
+
+.box {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 240px;
+}
+
+.box img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.box .overbox {
+  background-color: #FF0048;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  z-index: 100;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+  width: 100%;
+  height: 240px;
+  padding: 130px 20px;
+}
+
+.box:hover .overbox { opacity: 1; }
+
+.box .overtext {
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  transform: translateY(40px);
+  -webkit-transform: translateY(40px);
+}
+
+.box .title {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+}
+
+.box:hover .title,
+.box:focus .title {
+  opacity: 1;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+}
+
+.box .tagline {
+  font-size: 0.8em;
+  opacity: 0;
+  transition-delay: 0.2s;
+  transition-duration: 0.2s;
+}
+
+.box:hover .tagline,
+.box:focus .tagline {
+  opacity: 1;
+  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+}
+/* --------------  Meet the Folks ----------------*/
+.text {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #FF0048;
+    color: white;
+    margin-top: -20px;
+    padding-top: 20px;
+    font-size: 20px;
+   
+}
+.float h3{
+    color: #FF0048;
+    font-size: 40px;
+}
+.float p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.folks {
+     width: 100%;
+     margin: 0 auto;
+}
+
+.meet {
+    font-size: 20px;
+    color: #FF0048;
+}
+.folks .row .float{
+    float: left;
+}
+
+.fotoja {
+    width: 100%;
+    background-size:  cover;
+}
+
+/* --------------  Contact Button ----------------*/
+
+
+.button a{
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+
+.button a:hover{
+    text-decoration: none;
+    color: white;
+    background: #FF0048;
+}
+
+/* --------------  About Us ----------------*/
+.about-us {
+    background: url(../images/ground1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1500px;
+    color: white;
+    margin-top: 50px;
+    margin: auto;
+    text-align: left;
+}
+.shtylla {
+    width:  40%;
+    height:  auto;
+    float: left;
+    padding: 20px;
+    font-size: 19px;
+    padding-top: 100px;
+}
+
+.shtylla h3{
+    font-size: 40px;
+}
+
+.rows{
+    width: 90%;
+    margin:0 auto;
+}
+.butoni {
+    margin-top: -100px;
+}
+.buttonnje{
+    padding: 20px 20px;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.buttonnje:hover{
+    text-decoration: none;
+    color: white;
+    background: #FF0048;
+}
+
+.us .row ul{
+    float: right;
+}
+/* --------------  Footer ----------------*/
+
+footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 150px;
+}
+
+
+/* -------------- Clearfix -----------------*/
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media only screen and (max-width: 500px) {
+    nav {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+    nav ul li {
+        display: block;
+        padding: 15px;
+    }
+    
+    .rresht{
+        width: 100%;
+        height: auto;
+    }
+    .overbox {
+        display: none;
+    }
+    .text {
+        width: 100%;
+        margin-top: -100px;
+        height: auto;
+    }
+    
+    .shtylla {
+        width: 90%;
+        height: auto;
+    }
+    
+    .butoni {
+        margin: 70px;
+    }
+    .butoni .buttonnje {
+        background-color: black;
+        color: white;
+    }
+    .butoni .buttonnje:hover{
+        text-decoration: none;
+        color: white;
+        background-color: #FF0048;
+    }
+    
+    .boxes {
+        backface-visibility: hidden;
+       
+    }
+}
+
+
+
+
